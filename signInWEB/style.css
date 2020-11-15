@@ -8,6 +8,7 @@
 }
 
 body{
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +46,10 @@ body{
     color: rgba(226, 226, 226, 0.7);
 }
 
+.input-section i:hover{
+    color: rgb(172, 172, 172);
+}
+
 .checkbox-section{
     margin-bottom: 1em;
 }
@@ -70,5 +75,10 @@ input[type="submit"]{
     color: white;
     font-weight: bolder;
 }
+
+.checkbox-section a {
+    font-weight: bolder;
+    color: rgb(67, 67, 165);
+  }
 
 
