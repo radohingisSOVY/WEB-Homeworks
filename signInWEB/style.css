@@ -10,16 +10,14 @@
 body{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .sign-in-container{
     display: flex;
     flex-direction: column;
+    margin: 10px;
     min-width: 300px;
-}
-
-.input-section{
-    
 }
 
 .input-section #email,
