@@ -1,6 +1,76 @@
-html {
+* {
     box-sizing: border-box;
+    border-style: none;
     margin: 0;
     padding: 0;
-    border: none;
+    font-family: sans-serif;
+    text-decoration: none;
 }
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.sign-in-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+}
+
+.input-section{
+    
+}
+
+.input-section #email,
+.input-section #password{
+    border-color: rgb(226, 226, 226);
+    padding: 1em;
+    width: 100%
+}
+
+#email{
+    border-radius: 5px 5px 0 0;
+    border: 1px solid rgb(226, 226, 226);
+    border-bottom: none;
+}
+
+#password{
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgb(226, 226, 226);
+    margin-bottom: 1em;
+}
+
+.input-section i{
+    margin-left: -30px;
+    cursor: pointer;
+    color: rgba(226, 226, 226, 0.7);
+}
+
+.checkbox-section{
+    margin-bottom: 1em;
+}
+
+.checkbox-section{
+    display: flex;
+    justify-content: space-between;
+    appearance: none;
+    font-size: smaller;
+}
+
+input[type="checkbox"]{
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    padding: 1em 0;
+    border-radius: 5px;
+    background-color: rgb(67, 67, 165);
+    appearance: none;
+    color: white;
+    font-weight: bolder;
+}
+
+
